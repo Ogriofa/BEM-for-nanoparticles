@@ -784,8 +784,11 @@ deallocate(dMatimp)
 deallocate(nField)    
 
 end program mom3d
-
-
+!*************************************************************************************************************************************************************************************************
+!Following subroutines implement a barycentric approximation to near and far field scattering calculations
+! Written by: Murphy Griffin
+! Summer of 2012
+!
 Include 'xscatt_mom3d.f90'
 !Include 'zegsv.f'
 
